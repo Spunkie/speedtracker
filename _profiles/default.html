@@ -16,15 +16,19 @@ default: true
 # with a minimum value of 12, as only two scheduled tests per day are allowed.
 # To disabled repeated tests, simply remove this property from the profile.
 #
-interval: 12
+# interval: 12
 
 #
 # WebPageTest test parameters
-#
+# Dulles_MotoG:Motorola G - Chrome
 parameters:
   connectivity: "Cable"
   location: "Dulles:Chrome"
-  runs: 3
+  runs: 1
+  private: 1
+  video: 0
+  noimages: 1
+  fvonly: 0
   url: "https://polishedgeekcdn.com"
 
 #
