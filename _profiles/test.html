@@ -3,7 +3,7 @@
 # The human-friendly name of the profile. Whenever you're asked for the profile
 # ID, it refers to the name of the profile file — in this case, "default".
 #
-name: "tester"
+name: "test"
 
 #
 # The default profile will be the one shown when accessing the root URL of your
@@ -16,7 +16,7 @@ default: false
 # with a minimum value of 12, as only two scheduled tests per day are allowed.
 # To disabled repeated tests, simply remove this property from the profile.
 #
-interval: 1
+#interval: 1
 
 #
 # WebPageTest test parameters
@@ -25,11 +25,10 @@ parameters:
   connectivity: "Cable"
   location: "Dulles:Chrome"
   runs: 2
-  private: 1
   video: 0
   noimages: 1
   firstViewOnly: false
-  url: "c59572b721acc59727d124a866472088a1cda088c9e33e492517c23c7889230ccd3bf6f03877"
+  url: "https://google.com"
 
 #
 # Performance budgets are defined with a metric id, a max/min allowed value
